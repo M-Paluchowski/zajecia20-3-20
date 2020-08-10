@@ -1,0 +1,24 @@
+p {
+    color: red;
+    background-color: aqua;
+}
+
+.bgcRed {
+    background-color: red;
+}
+
+#A1 {
+    color: green;
+}
+
+.wah {
+    /*margin: 50px;*/
+    /*padding: 100px;*/
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.bgcBlue {
+    background-color: blue;
+}

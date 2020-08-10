@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+<body>
+    <form method="post" action="URL">
+        Imię: <input type="text" name="firstName" required="required" minlength="5" maxlength="10"><br/>
+        Wiek: <input type="number" name="age" min="10" max="120"><br/>
+        Hasło: <input type="password" name="password" minlength="8"><br/>
+        Email: <input type="email" name="email"><br/>
+        Data urodzenia: <input type="date" name="bd"><br/>
+        <textarea name="description" rows="10" cols="30"></textarea><br/>
+        <select name="city" required="required">
+            <option selected="selected" disabled="disabled">Wybierz</option>
+            <option>Wrocław</option>
+            <option>Warszawa</option>
+            <option>Katowice</option>
+        </select><br/>
+        Checkbox: <input type="checkbox" name="asdfz"><br/>
+        Male: <input type="radio" name="asdf"><br/>
+        Female: <input type="radio" name="asdf"><br/>
+        Female: <input type="radio" name="asdfa"><br/>
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>
